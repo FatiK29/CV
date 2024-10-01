@@ -1,0 +1,101 @@
+/* Styles de base */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #faf6f1; /* Couleur de fond beige clair */
+  color: #745237; /* Couleur du texte marron */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #e3dbcc; /* Couleur beige */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+h1 {
+  font-size: 36px; /* Taille du titre principal */
+  color: #745237; /* Couleur des titres */
+  margin-bottom: 10px;
+  border-bottom: 3px solid #745237; /* Bordure sous le titre */
+  padding-bottom: 10px;
+}
+
+h2,
+h3 {
+  color: #745237; /* Couleur des sous-titres */
+}
+
+h2 {
+  font-size: 28px; /* Taille du sous-titre */
+  margin-top: 20px; /* Marge supérieure */
+  border-bottom: 2px solid #745237; /* Bordure sous le sous-titre */
+  padding-bottom: 5px;
+}
+
+/* Sections */
+.personal-info,
+.skills,
+.experience,
+.education {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px; /* Coins arrondis */
+  background: #faf6f1; /* Couleur de fond de section */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre pour profondeur */
+}
+
+/* Liste */
+ul {
+  list-style-type: none; /* Supprime les puces par défaut */
+  padding: 0;
+}
+
+li {
+  background: #ffffff; /* Blanc pour les éléments de la liste */
+  margin: 10px 0; /* Espacement vertical */
+  padding: 15px; /* Espacement interne */
+  border-radius: 20px; /* Forme ovale */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Ombre pour profondeur */
+}
+
+/* Liens */
+a {
+  color: #745237; /* Couleur des liens */
+  text-decoration: none; /* Pas de soulignement par défaut */
+}
+
+a:hover {
+  text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Éléments d'expérience et d'éducation */
+.experience-item,
+.education-item {
+  margin: 15px 0; /* Espacement vertical */
+  padding: 15px; /* Espacement interne */
+  border-left: 5px solid #745237; /* Bordure à gauche */
+  background: #faf6f1; /* Couleur de fond */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+/* Styles pour les sections de compétences */
+.skills h4 {
+  margin-top: 15px; /* Marge pour le titre des compétences */
+}
+
+/* Responsivité */
+@media (max-width: 600px) {
+  body {
+    padding: 10px; /* Espacement pour petits écrans */
+  }
+
+  .container {
+    padding: 20px; /* Espacement pour le conteneur */
+  }
+}

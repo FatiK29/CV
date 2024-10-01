@@ -1,0 +1,90 @@
+{
+  "personal_info": {
+    "name": "K Fatima",
+    "email": "",
+    "website": "https:/",
+    "portfolio": "https:/",
+    "phone": "+32 ",
+    "address": "1070 Bruxelles"
+  },
+  "skills": {
+    "hard_skills": [
+      "Adobe Creative Suite (PS, AI, XD, Adobe Express)",
+      "WordPress",
+      "HTML5/CSS3",
+      "Canva"
+    ],
+    "soft_skills": [
+      "Organis\u00e9e: Gestion efficace des projets",
+      "Cr\u00e9ative: Solutions innovantes",
+      "Proactive: Prise d'initiatives",
+      "Polyvalente: Adaptabilit\u00e9 et ma\u00eetrise d\u2019outils vari\u00e9s"
+    ],
+    "languages": {
+      "fran\u00e7ais": "langue maternelle",
+      "anglais": "B1"
+    }
+  },
+  "experience": [
+    {
+      "position": "Secr\u00e9taire Administrative",
+      "company": "SCT International SPRL (Transport et Logistique)",
+      "dates": "Ao\u00fbt 2021 - Juillet 2022",
+      "tasks": [
+        "Accueil et support administratif",
+        "Gestion des dossiers d\u2019assurance",
+        "Gestion des courriels entrants et sortants",
+        "Gestion de la facturation",
+        "Encodage des donn\u00e9es"
+      ]
+    },
+    {
+      "position": "Adjointe Administrative (Contrat Youth Guarantee)",
+      "company": "Bruxelles Environnement",
+      "dates": "Mars 2021 - Ao\u00fbt 2021",
+      "tasks": [
+        "Gestion des dossiers",
+        "R\u00e9daction des avis et arr\u00eat\u00e9s",
+        "Support administratif",
+        "Gestion des courriels",
+        "Analyse des pi\u00e8ces justificatives"
+      ]
+    },
+    {
+      "position": "Accueillante M\u00e9dicale (Stage FIRST)",
+      "company": "Centre M\u00e9dical RHAZES",
+      "dates": "Janvier 2019 - Juin 2019",
+      "tasks": [
+        "Accueil des patients",
+        "Prise de rendez-vous via Progenda",
+        "Mise \u00e0 jour et scan des dossiers",
+        "T\u00e2ches administratives (tiers payant)"
+      ]
+    },
+    {
+      "position": "Accueillante M\u00e9dicale (Job \u00c9tudiant)",
+      "company": "Centre M\u00e9dical RHAZES",
+      "dates": "Juillet 2018 - Ao\u00fbt 2018",
+      "tasks": [
+        "Accueil des patients",
+        "Prise de rendez-vous via Sanmax",
+        "Mise \u00e0 jour et scan des dossiers",
+        "Appels t\u00e9l\u00e9phoniques"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BES Webdesigner UI/UX",
+      "institution": "IFOSUP de Wavre",
+      "dates": "2023-2025",
+      "location": "1300 Wavre"
+    },
+    {
+      "degree": "CESS + Technicien de Bureau",
+      "institution": "Institut Paul Henry Spaak (IPHS)",
+      "dates": "2015-2017",
+      "location": "1020 Bruxelles"
+    }
+  ]
+}
