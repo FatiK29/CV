@@ -1,102 +1,107 @@
 /* Styles de base */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #FAF6F1; /* Couleur de fond beige clair */
-    color: #745237; /* Couleur du texte marron */
-    margin: 0;
-    padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #faf6f1; /* Couleur de fond beige clair */
+  color: #745237; /* Couleur du texte marron */
+  margin: 0;
+  padding: 20px;
 }
 
 /* Conteneur principal */
 .container {
-    max-width: 800px; /* Largeur maximale */
-    margin: 0 auto; /* Centrer le conteneur */
-    padding: 30px;
-    background: #E3DBCC; /* Couleur beige */
-    border-radius: 15px; /* Coins arrondis */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre pour profondeur */
+  max-width: 800px; /* Largeur maximale */
+  margin: 0 auto; /* Centrer le conteneur */
+  padding: 30px;
+  background: #e3dbcc; /* Couleur beige */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre pour profondeur */
 }
 
 /* Titres */
 h1 {
-    text-align: center; /* Centrer le titre principal */
-    font-size: 36px; /* Taille du titre principal */
-    color: #745237; /* Couleur des titres */
-    margin-bottom: 20px; /* Marge inférieure */
+  text-align: center; /* Centrer le titre principal */
+  font-size: 36px; /* Taille du titre principal */
+  color: #745237; /* Couleur des titres */
+  margin-bottom: 20px; /* Marge inférieure */
 }
 
 h2 {
-    font-size: 28px; /* Taille du sous-titre */
-    color: #745237; /* Couleur des sous-titres */
-    margin-top: 20px; /* Marge supérieure */
-    border-bottom: 2px solid #745237; /* Bordure sous le sous-titre */
-    padding-bottom: 5px; /* Espacement sous le titre */
+  font-size: 28px; /* Taille du sous-titre */
+  color: #745237; /* Couleur des sous-titres */
+  margin-top: 20px; /* Marge supérieure */
+  border-bottom: 2px solid #745237; /* Bordure sous le sous-titre */
+  padding-bottom: 5px; /* Espacement sous le titre */
 }
 
 h3 {
-    color: #745237; /* Couleur des titres de section */
-    margin-top: 10px; /* Marge supérieure */
+  color: #745237; /* Couleur des titres de section */
+  margin-top: 10px; /* Marge supérieure */
 }
 
 /* Sections */
-.personal-info, .skills, .experience, .education, .languages {
-    margin-bottom: 30px; /* Espacement entre les sections */
-    padding: 20px; /* Espacement interne */
-    border-radius: 10px; /* Coins arrondis */
-    background: #FAF6F1; /* Couleur de fond de section */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre pour profondeur */
+.personal-info,
+.skills,
+.experience,
+.education,
+.languages {
+  margin-bottom: 30px; /* Espacement entre les sections */
+  padding: 20px; /* Espacement interne */
+  border-radius: 10px; /* Coins arrondis */
+  background: #faf6f1; /* Couleur de fond de section */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre pour profondeur */
 }
 
 /* Liste */
 ul {
-    list-style-type: none; /* Supprime les puces par défaut */
-    padding: 0; /* Supprime le remplissage par défaut */
+  list-style-type: none; /* Supprime les puces par défaut */
+  padding: 0; /* Supprime le remplissage par défaut */
 }
 
 li {
-    background: #FFFFFF; /* Blanc pour les éléments de la liste */
-    margin: 10px 0; /* Espacement vertical */
-    padding: 15px; /* Espacement interne */
-    border-radius: 20px; /* Forme ovale */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Ombre pour profondeur */
+  background: #ffffff; /* Blanc pour les éléments de la liste */
+  margin: 10px 0; /* Espacement vertical */
+  padding: 15px; /* Espacement interne */
+  border-radius: 20px; /* Forme ovale */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Ombre pour profondeur */
 }
 
 /* Liens */
 a {
-    color: #745237; /* Couleur des liens */
-    text-decoration: none; /* Pas de soulignement par défaut */
+  color: #745237; /* Couleur des liens */
+  text-decoration: none; /* Pas de soulignement par défaut */
 }
 
 a:hover {
-    text-decoration: underline; /* Soulignement au survol */
+  text-decoration: underline; /* Soulignement au survol */
 }
 
 /* Éléments d'expérience et d'éducation */
-.experience-item, .education-item {
-    margin: 15px 0; /* Espacement vertical */
-    padding: 15px; /* Espacement interne */
-    border-left: 5px solid #745237; /* Bordure à gauche */
-    background: #FAF6F1; /* Couleur de fond */
-    border-radius: 10px; /* Coins arrondis */
+.experience-item,
+.education-item {
+  margin: 15px 0; /* Espacement vertical */
+  padding: 15px; /* Espacement interne */
+  border-left: 5px solid #745237; /* Bordure à gauche */
+  background: #faf6f1; /* Couleur de fond */
+  border-radius: 10px; /* Coins arrondis */
 }
 
 /* Styles pour la section des langues */
 .languages {
-    border: 2px solid #745237; /* Bordure autour de la section langues */
+  border: 2px solid #745237; /* Bordure autour de la section langues */
 }
 
 .languages h3 {
-    text-align: center; /* Centrer le titre des langues */
-    margin-bottom: 10px; /* Marge inférieure */
+  text-align: center; /* Centrer le titre des langues */
+  margin-bottom: 10px; /* Marge inférieure */
 }
 
 /* Responsivité */
 @media (max-width: 600px) {
-    body {
-        padding: 10px; /* Espacement pour petits écrans */
-    }
+  body {
+    padding: 10px; /* Espacement pour petits écrans */
+  }
 
-    .container {
-        padding: 20px; /* Espacement pour le conteneur */
-    }
+  .container {
+    padding: 20px; /* Espacement pour le conteneur */
+  }
 }
