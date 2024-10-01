@@ -37,7 +37,20 @@ function displaySkills(skills) {
     `;
   document.body.appendChild(container);
 }
-
+// Fonction pour afficher les langues
+function displayLanguages(languages) {
+  const container = document.createElement("div");
+  container.classList.add("languages");
+  container.innerHTML = `
+        <h3>Langues</h3>
+        <ul>
+            <li>Français: ${languages.français}</li>
+            <li>Anglais: ${languages.anglais}</li>
+            <!-- Ajoutez d'autres langues si nécessaire -->
+        </ul>
+    `;
+  document.body.appendChild(container);
+}
 // Fonction pour afficher l'expérience professionnelle
 function displayExperience(experiences) {
   const container = document.createElement("div");
